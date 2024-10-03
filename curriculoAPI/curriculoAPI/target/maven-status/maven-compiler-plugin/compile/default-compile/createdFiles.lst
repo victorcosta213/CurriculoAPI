@@ -1,0 +1,6 @@
+com\example\vcm\CurriculoApplication.class
+com\example\vcm\service\CurriculoService.class
+com\example\vcm\controller\PessoalController.class
+com\example\vcm\repository\PessoalRepository.class
+com\example\vcm\model\Pessoal.class
+com\example\vcm\model\Formacao.class
