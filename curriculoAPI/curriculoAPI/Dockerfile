@@ -9,5 +9,5 @@ COPY . .
 # Package stage
 #
 FROM eclipse-temurin:22-jdk-alpine
-COPY --from=build /target/*.jar app.jar
+COPY --from=build /target/*.jar vcm.jar
 ENTRYPOINT ["java","-jar","app.jar"]
